@@ -7,6 +7,8 @@ public class Movimientovikingo : MonoBehaviour
     public float fuerzaSalto;
     private float horizontal;
     private Rigidbody2D movimineto;
+    private bool salto;
+    public float velosidad;
 
 
     // Start es lo que se inicia en la clase
@@ -19,7 +21,19 @@ public class Movimientovikingo : MonoBehaviour
     void Update()
     {
         horizontal = Input.GetAxisRaw("Horizontal");
-        if (Input.GetKeyDown(KeyCode.W)){
+
+        //Debug.DrawRay(transform.position, Vector3.down*0.9f, Color.red);
+        if(Physics2D.Raycast(transform.position,Vector3.down,1.1f))
+        {
+            salto = true;
+        }
+        else
+        {
+            salto = false;
+        }
+
+
+        if (Input.GetKeyDown(KeyCode.W)&& salto){
             saltar();
         }
         
@@ -32,7 +46,7 @@ public class Movimientovikingo : MonoBehaviour
 
     private void FixedUpdate()
     {
-        movimineto.velocity = new Vector2(horizontal,movimineto.velocity.y);
+        movimineto.velocity = new Vector2(horizontal*velosidad,movimineto.velocity.y);
     }
 }
     
