@@ -1,0 +1,892 @@
+fileFormatVersion: 2
+guid: f0b45b55c6d40d74f8f46d7f8b25b656
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 2d-fantasy-viking-sprite-sheets-6-removebg_0
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 828
+        width: 92
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df57e2b09b9206c42ad92a6040de2274
+      internalID: 2106836958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2d-fantasy-viking-sprite-sheets-6-removebg_1
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 829
+        width: 90
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4214ca022ad9ac4688568536fd37363
+      internalID: -670965671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2d-fantasy-viking-sprite-sheets-6-removebg_2
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 829
+        width: 91
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7dcf69650f40a846b60b382e598aadc
+      internalID: -1457907828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2d-fantasy-viking-sprite-sheets-6-removebg_3
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 828
+        width: 92
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feb7d15a8fbfba94789dea463daa71e3
+      internalID: -1193565333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2d-fantasy-viking-sprite-sheets-6-removebg_4
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 828
+        width: 91
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74f793ea45921054b9cf45f759402629
+      internalID: 365260717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2d-fantasy-viking-sprite-sheets-6-removebg_5
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 700
+        width: 97
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ed2e7dab7a50e4cb0143aa02140de9
+      internalID: 1335676169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2d-fantasy-viking-sprite-sheets-6-removebg_6
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 701
+        width: 94
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0577e49cd3db36b45adaa684ff64b5e1
+      internalID: -568475773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2d-fantasy-viking-sprite-sheets-6-removebg_7
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 702
+        width: 91
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cd92a2d58bf257428f62b55c7fadb6a
+      internalID: -247342782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2d-fantasy-viking-sprite-sheets-6-removebg_8
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 700
+        width: 93
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e5d73e5ec74f004aad90d69c23bb034
+      internalID: 174088921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2d-fantasy-viking-sprite-sheets-6-removebg_9
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 701
+        width: 95
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 088b595da5fa53449814e43f9a161514
+      internalID: 1105020918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2d-fantasy-viking-sprite-sheets-6-removebg_10
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 569
+        width: 116
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42f2c5c4ec8c8394281a1856c823c05c
+      internalID: -770004196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2d-fantasy-viking-sprite-sheets-6-removebg_11
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 565
+        width: 108
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe5e578ba955ff4a8440a488d82937a
+      internalID: 1792043875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2d-fantasy-viking-sprite-sheets-6-removebg_12
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 566
+        width: 86
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db67fceb77afa42428cb8715605009d1
+      internalID: -1317924094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2d-fantasy-viking-sprite-sheets-6-removebg_13
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 566
+        width: 86
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c648ed4af7cfe68428c5018afd33511e
+      internalID: 1809396670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2d-fantasy-viking-sprite-sheets-6-removebg_14
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 565
+        width: 108
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2acb813b4c9391e43b4eec1d245cb7b9
+      internalID: 1242404755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2d-fantasy-viking-sprite-sheets-6-removebg_15
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 412
+        width: 88
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f01910f852cb424f9e3a744c125c658
+      internalID: -1848836755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2d-fantasy-viking-sprite-sheets-6-removebg_16
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 422
+        width: 103
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 730896ea0410fb246bc7ecc42c7e5db7
+      internalID: -781921241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2d-fantasy-viking-sprite-sheets-6-removebg_17
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 436
+        width: 120
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4b23521e10c56848b45f22398514243
+      internalID: 1229642984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2d-fantasy-viking-sprite-sheets-6-removebg_18
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 435
+        width: 120
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cc8779f4341d1a4ea94474228c45fda
+      internalID: 840448145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2d-fantasy-viking-sprite-sheets-6-removebg_19
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 422
+        width: 105
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 205959d7b6708384bb214764cf555395
+      internalID: -1413077454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2d-fantasy-viking-sprite-sheets-6-removebg_20
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 291
+        width: 86
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b130f55af8557a441ab613ab8ca526e7
+      internalID: 1982704309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2d-fantasy-viking-sprite-sheets-6-removebg_21
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 290
+        width: 73
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ba23f03f4318c34ab7862202d516be5
+      internalID: -284778518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2d-fantasy-viking-sprite-sheets-6-removebg_22
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 290
+        width: 89
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 854a8380a586e2f418e17ed69cec15b8
+      internalID: 390408118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2d-fantasy-viking-sprite-sheets-6-removebg_23
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 290
+        width: 88
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d2418bd349029240be909256d5d6b3f
+      internalID: 826845113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2d-fantasy-viking-sprite-sheets-6-removebg_24
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 290
+        width: 89
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecbdc0ac6b8b643429a4b0aad661e12b
+      internalID: 68513351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2d-fantasy-viking-sprite-sheets-6-removebg_25
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 163
+        width: 88
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ddd3e533a951146a6291a0366e061b
+      internalID: -1747007234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2d-fantasy-viking-sprite-sheets-6-removebg_26
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 162
+        width: 100
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b17a6744b47dc9446b6b729a998e50b5
+      internalID: 6629139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2d-fantasy-viking-sprite-sheets-6-removebg_27
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 162
+        width: 101
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 325fadb73cdafcb4b9861d916b7c6dc6
+      internalID: 1679651157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2d-fantasy-viking-sprite-sheets-6-removebg_28
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 162
+        width: 103
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7415672b91544e7489e0b633ee54a846
+      internalID: 1729401204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2d-fantasy-viking-sprite-sheets-6-removebg_29
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 163
+        width: 102
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 527b1063e0296e34e9fe6f2292e194d0
+      internalID: 1654265904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2d-fantasy-viking-sprite-sheets-6-removebg_30
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 27
+        width: 87
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c0d3c656b95c44458a764eabff01779
+      internalID: -1326107324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2d-fantasy-viking-sprite-sheets-6-removebg_31
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 27
+        width: 86
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ddd9c6603765a74fab3497d5072b630
+      internalID: -498417951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2d-fantasy-viking-sprite-sheets-6-removebg_32
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 25
+        width: 88
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ac19e83fee6f549a6d781c1e61c1c2
+      internalID: -1882419864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2d-fantasy-viking-sprite-sheets-6-removebg_33
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 25
+        width: 106
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a9ca1e80a40a3144a8d0c0a07687cef
+      internalID: -229479537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2d-fantasy-viking-sprite-sheets-6-removebg_34
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 25
+        width: 108
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9549923310f92f149af7f3eead4a6721
+      internalID: -1943897181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      2d-fantasy-viking-sprite-sheets-6-removebg_34: -1943897181
+      2d-fantasy-viking-sprite-sheets-6-removebg_26: 6629139
+      2d-fantasy-viking-sprite-sheets-6-removebg_32: -1882419864
+      2d-fantasy-viking-sprite-sheets-6-removebg_14: 1242404755
+      2d-fantasy-viking-sprite-sheets-6-removebg_24: 68513351
+      2d-fantasy-viking-sprite-sheets-6-removebg_10: -770004196
+      2d-fantasy-viking-sprite-sheets-6-removebg_17: 1229642984
+      2d-fantasy-viking-sprite-sheets-6-removebg_22: 390408118
+      2d-fantasy-viking-sprite-sheets-6-removebg_3: -1193565333
+      2d-fantasy-viking-sprite-sheets-6-removebg_21: -284778518
+      2d-fantasy-viking-sprite-sheets-6-removebg_20: 1982704309
+      2d-fantasy-viking-sprite-sheets-6-removebg_28: 1729401204
+      2d-fantasy-viking-sprite-sheets-6-removebg_8: 174088921
+      2d-fantasy-viking-sprite-sheets-6-removebg_23: 826845113
+      2d-fantasy-viking-sprite-sheets-6-removebg_6: -568475773
+      2d-fantasy-viking-sprite-sheets-6-removebg_0: 2106836958
+      2d-fantasy-viking-sprite-sheets-6-removebg_1: -670965671
+      2d-fantasy-viking-sprite-sheets-6-removebg_16: -781921241
+      2d-fantasy-viking-sprite-sheets-6-removebg_33: -229479537
+      2d-fantasy-viking-sprite-sheets-6-removebg_12: -1317924094
+      2d-fantasy-viking-sprite-sheets-6-removebg_9: 1105020918
+      2d-fantasy-viking-sprite-sheets-6-removebg_2: -1457907828
+      2d-fantasy-viking-sprite-sheets-6-removebg_4: 365260717
+      2d-fantasy-viking-sprite-sheets-6-removebg_13: 1809396670
+      2d-fantasy-viking-sprite-sheets-6-removebg_27: 1679651157
+      2d-fantasy-viking-sprite-sheets-6-removebg_7: -247342782
+      2d-fantasy-viking-sprite-sheets-6-removebg_15: -1848836755
+      2d-fantasy-viking-sprite-sheets-6-removebg_19: -1413077454
+      2d-fantasy-viking-sprite-sheets-6-removebg_31: -498417951
+      2d-fantasy-viking-sprite-sheets-6-removebg_25: -1747007234
+      2d-fantasy-viking-sprite-sheets-6-removebg_29: 1654265904
+      2d-fantasy-viking-sprite-sheets-6-removebg_11: 1792043875
+      2d-fantasy-viking-sprite-sheets-6-removebg_30: -1326107324
+      2d-fantasy-viking-sprite-sheets-6-removebg_18: 840448145
+      2d-fantasy-viking-sprite-sheets-6-removebg_5: 1335676169
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
