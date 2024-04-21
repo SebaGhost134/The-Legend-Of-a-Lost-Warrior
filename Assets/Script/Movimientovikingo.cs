@@ -26,7 +26,6 @@ public class Movimientovikingo : MonoBehaviour
         horizontal = Input.GetAxisRaw("Horizontal");
 
         Animator.SetBool("running", horizontal != 0.0f);
-
         //Debug.DrawRay(transform.position, Vector3.down*0.9f, Color.red);
         if(Physics2D.Raycast(transform.position,Vector3.down,1.1f))
         {

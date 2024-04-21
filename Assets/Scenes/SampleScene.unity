@@ -1837,8 +1837,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae2f68a37d5aa174faa07b5473d1247d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fuerzaSalto: 168
-  velosidad: 5
+  fuerzaSalto: 7
+  velocidad: 5
+  transform: {fileID: 439623540}
 --- !u!70 &439623542
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -1852,8 +1853,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.000000059604645, y: -0.011772156}
-  m_Size: {x: 0.9300002, y: 1.039535}
+  m_Offset: {x: -0.18115425, y: -0.011772148}
+  m_Size: {x: 0.4702263, y: 1.039535}
   m_Direction: 0
 --- !u!50 &439623543
 Rigidbody2D:
@@ -1871,7 +1872,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 1d9203d16e133874da8034aa0048d83c, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
