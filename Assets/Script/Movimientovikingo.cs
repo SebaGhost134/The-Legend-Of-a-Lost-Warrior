@@ -7,15 +7,16 @@ public class Movimientovikingo : MonoBehaviour
     public float fuerzaSalto;
     private Animator Animator;
     private float horizontal;
-    private Rigidbody2D movimineto;
+    private bool mirarDerecha=true;
+    private Rigidbody2D movimiento;
     private bool salto;
-    public float velosidad;
-
+    public float velocidad;
+    public Transform transform;
 
     // Start es lo que se inicia en la clase
     void Start()
     {
-        movimineto = GetComponent<Rigidbody2D>();
+        movimiento = GetComponent<Rigidbody2D>();
         Animator = GetComponent<Animator>();
     }
 
@@ -35,22 +36,29 @@ public class Movimientovikingo : MonoBehaviour
         {
             salto = false;
         }
-
-
         if (Input.GetKeyDown(KeyCode.W)&& salto){
-            saltar();
+            Saltar();
         }
-        
+        Flip();
     }
 
-    private void saltar()
+    private void Saltar()
     {
-        movimineto.AddForce(Vector2.up*fuerzaSalto);
+        movimiento.velocity=new Vector2(movimiento.velocity.x,fuerzaSalto);
     }
 
+    private void Flip()
+    {
+        if(mirarDerecha && horizontal<0f || !mirarDerecha && horizontal >0f){
+           Vector3 localScale=transform.localScale;
+           mirarDerecha=! mirarDerecha;
+           localScale.x*=-1f;
+           transform.localScale=localScale; 
+        }
+    }
     private void FixedUpdate()
     {
-        movimineto.velocity = new Vector2(horizontal*velosidad,movimineto.velocity.y);
+        movimiento.velocity = new Vector2(horizontal*velocidad,movimiento.velocity.y);
     }
 }
     
