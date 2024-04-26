@@ -948,9 +948,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 603
-        y: 1086
-        width: 135
-        height: 71
+        y: 1088
+        width: 134
+        height: 69
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2837,8 +2837,8 @@ TextureImporter:
       Level_130: -64481038
       Level_29: -1712440283
       Level_107: 1588940098
-      Level_99: -1772173633
       Level_83: -1759998103
+      Level_99: -1772173633
       Level_104: -1053937562
       Level_108: -307777570
       Level_134: -462109973
