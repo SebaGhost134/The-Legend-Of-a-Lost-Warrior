@@ -128,9 +128,9 @@ TextureImporter:
       name: Level_4
       rect:
         serializedVersion: 2
-        x: 255
+        x: 256
         y: 1414
-        width: 68
+        width: 66
         height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -2837,8 +2837,8 @@ TextureImporter:
       Level_130: -64481038
       Level_29: -1712440283
       Level_107: 1588940098
-      Level_83: -1759998103
       Level_99: -1772173633
+      Level_83: -1759998103
       Level_104: -1053937562
       Level_108: -307777570
       Level_134: -462109973
