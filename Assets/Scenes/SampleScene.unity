@@ -1452,6 +1452,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae2f68a37d5aa174faa07b5473d1247d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  BulletPrefab: {fileID: 0}
   fuerzaSalto: 6
   velocidad: 5
   transform: {fileID: 439623540}
@@ -7138,7 +7139,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1493393277
 MonoBehaviour:
   m_ObjectHideFlags: 0

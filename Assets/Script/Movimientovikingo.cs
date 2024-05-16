@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Movimientovikingo : MonoBehaviour
 {
+    public GameObject BulletPrefab;
     public float fuerzaSalto;
     private Animator Animator;
     private float horizontal;
@@ -26,7 +27,6 @@ public class Movimientovikingo : MonoBehaviour
         horizontal = Input.GetAxisRaw("Horizontal");
 
         Animator.SetBool("running", horizontal != 0.0f);
-        //Debug.DrawRay(transform.position, Vector3.down*0.9f, Color.red);
         if(Physics2D.Raycast(transform.position,Vector3.down,1.1f))
         {
             salto = true;
@@ -39,11 +39,27 @@ public class Movimientovikingo : MonoBehaviour
             Saltar();
         }
         Flip();
+
+        if (Input.GetKey(KeyCode.Space))
+        {
+            Shoot();
+        }
     }
 
     private void Saltar()
     {
         movimiento.velocity=new Vector2(movimiento.velocity.x,fuerzaSalto);
+    }
+
+    private void Shoot()
+    {
+        Vector3 direction;
+        if(transform.position.x == 0.0f) && direction = Vector3.right;
+        else direction = Vector3.left;
+
+
+        GameObject bullet = Instantiate(BulletPrefab, transform.position.x + direction *0.1f, Quaternion.identity);
+        bullet.GetComponent<BalaPoder>().SetDirection(direction);
     }
 
     private void Flip()
