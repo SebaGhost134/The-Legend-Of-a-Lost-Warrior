@@ -56,11 +56,11 @@ public class Movimientovikingo : MonoBehaviour
     private void Shoot()
     {
         Vector3 direction;
-        if(transform.position.x == 1.0f)
+        if(transform.localScale.x == 1.0f)
         {
             direction = Vector3.right;
             GameObject bullet = Instantiate(BulletPrefab, transform.position + direction *1.0f, Quaternion.identity);
-           // bullet.transform.localScale = new Vector3(0.5f , 0.5f , 0.5f);
+            bullet.transform.localScale = new Vector3(0.5f , 0.5f , 0.5f);
             print("Derecha");
             bullet.GetComponent<BalaPoder>().SetDirection(direction);
         }
@@ -68,7 +68,7 @@ public class Movimientovikingo : MonoBehaviour
         {
             direction = Vector3.left;
             GameObject bullet = Instantiate(BulletPrefab, transform.position + direction *1.0f, Quaternion.identity);
-            //bullet.transform.localScale = new Vector3(-0.5f , 0.5f , 0.5f);
+            bullet.transform.localScale = new Vector3(-0.5f , 0.5f , 0.5f);
             print("isquierda");
             bullet.GetComponent<BalaPoder>().SetDirection(direction);
 
