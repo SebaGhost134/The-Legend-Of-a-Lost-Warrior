@@ -12,7 +12,7 @@ public class Movimientovikingo : MonoBehaviour
     private Rigidbody2D movimiento;
     private bool salto;
     public float velocidad;
-    public Transform transform;
+    public float LastShoot;
 
     // Start es lo que se inicia en la clase
     void Start()
@@ -27,6 +27,7 @@ public class Movimientovikingo : MonoBehaviour
         horizontal = Input.GetAxisRaw("Horizontal");
 
         Animator.SetBool("running", horizontal != 0.0f);
+        
         if(Physics2D.Raycast(transform.position,Vector3.down,1.1f))
         {
             salto = true;
@@ -40,9 +41,10 @@ public class Movimientovikingo : MonoBehaviour
         }
         Flip();
 
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKey(KeyCode.Space) && Time.time > LastShoot + 0.25f)
         {
             Shoot();
+            LastShoot = Time.time;
         }
     }
 
@@ -54,12 +56,24 @@ public class Movimientovikingo : MonoBehaviour
     private void Shoot()
     {
         Vector3 direction;
-        if(transform.position.x == 0.0f) && direction = Vector3.right;
-        else direction = Vector3.left;
+        if(transform.position.x == 1.0f)
+        {
+            direction = Vector3.right;
+            GameObject bullet = Instantiate(BulletPrefab, transform.position + direction *1.0f, Quaternion.identity);
+           // bullet.transform.localScale = new Vector3(0.5f , 0.5f , 0.5f);
+            print("Derecha");
+            bullet.GetComponent<BalaPoder>().SetDirection(direction);
+        }
+        else
+        {
+            direction = Vector3.left;
+            GameObject bullet = Instantiate(BulletPrefab, transform.position + direction *1.0f, Quaternion.identity);
+            //bullet.transform.localScale = new Vector3(-0.5f , 0.5f , 0.5f);
+            print("isquierda");
+            bullet.GetComponent<BalaPoder>().SetDirection(direction);
 
+        } 
 
-        GameObject bullet = Instantiate(BulletPrefab, transform.position.x + direction *0.1f, Quaternion.identity);
-        bullet.GetComponent<BalaPoder>().SetDirection(direction);
     }
 
     private void Flip()

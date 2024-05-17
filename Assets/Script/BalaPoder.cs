@@ -24,5 +24,10 @@ public class BalaPoder : MonoBehaviour
         Direction = direction;
     }
 
+    public void DestruirBala()
+    {
+        Destroy(gameObject);
+    }
+
 
 }
