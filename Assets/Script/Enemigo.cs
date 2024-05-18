@@ -11,12 +11,13 @@ public class Enemigo : MonoBehaviour
     {
         Vector3 direccion = Personaje.transform.position - transform.position;
         if(direccion.x <=0.0f)
-    
+        {
             transform.localScale = new Vector3 (1.0f , 1.0f , 1.0f);
-
-        
+        }
         else
+        {
             transform.localScale = new Vector3 (-1.0f , 1.0f , 1.0f);
+        }
     }
 
     

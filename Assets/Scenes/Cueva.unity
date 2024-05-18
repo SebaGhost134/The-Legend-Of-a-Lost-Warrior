@@ -4687,9 +4687,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae2f68a37d5aa174faa07b5473d1247d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  BulletPrefab: {fileID: 2593930326025993895, guid: 2d5034ce5323d7a4b9ca95f5aa42888c, type: 3}
   fuerzaSalto: 6
   velocidad: 5
-  transform: {fileID: 1375043952}
+  LastShoot: 0
 --- !u!70 &1375043956
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
