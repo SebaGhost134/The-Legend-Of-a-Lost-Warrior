@@ -5,6 +5,7 @@ using UnityEngine;
 public class Enemigo : MonoBehaviour
 {
     public GameObject Personaje;
+    public int vidas;
 
     // Update is called once per frame
     void Update()
@@ -29,6 +30,11 @@ public class Enemigo : MonoBehaviour
                 GameManager.Instance.PerderVida();
             }
         }
+
+    public void RestarVida()
+    {
+        
+    }
 
     
 }

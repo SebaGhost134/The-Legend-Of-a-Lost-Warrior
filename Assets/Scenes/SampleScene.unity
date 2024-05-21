@@ -10844,6 +10844,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Personaje: {fileID: 439623539}
+  vidas: 3
 --- !u!95 &2054270687
 Animator:
   serializedVersion: 4
