@@ -13,6 +13,6 @@ public class Menu : MonoBehaviour
     public void BotonQuit()
     {
         Debug.Log("Quitamos la aplicacion");
-        Application.Quit();
+        SceneManager.LoadScene("Menu");
     }
 }
