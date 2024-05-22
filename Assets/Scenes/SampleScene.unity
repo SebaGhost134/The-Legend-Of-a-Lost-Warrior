@@ -302,7 +302,7 @@ GameObject:
   - component: {fileID: 62844362}
   - component: {fileID: 62844363}
   m_Layer: 0
-  m_Name: Fondo Bosque
+  m_Name: FondoBosque
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1761,8 +1761,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.18115425, y: -0.011772148}
-  m_Size: {x: 0.4702263, y: 1.039535}
+  m_Offset: {x: -0.15583038, y: -0.02267206}
+  m_Size: {x: 0.26763725, y: 0.90127033}
   m_Direction: 0
 --- !u!50 &439623543
 Rigidbody2D:

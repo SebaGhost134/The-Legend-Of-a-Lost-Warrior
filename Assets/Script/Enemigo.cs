@@ -30,11 +30,4 @@ public class Enemigo : MonoBehaviour
                 GameManager.Instance.PerderVida();
             }
         }
-
-    public void RestarVida()
-    {
-        
-    }
-
-    
 }

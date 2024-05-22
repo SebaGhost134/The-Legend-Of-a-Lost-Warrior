@@ -12,7 +12,6 @@ public class Menu : MonoBehaviour
 
     public void BotonQuit()
     {
-        Debug.Log("Quitamos la aplicacion");
         SceneManager.LoadScene("Menu");
     }
 }
