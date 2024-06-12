@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Cueva.unity
     guid: ec0a5fb504ed97549b0b0e92a4245518
   - enabled: 1
+    path: Assets/Scenes/Nieve.unity
+    guid: 411f1b140216c964ebd6dec2c85e21d4
+  - enabled: 1
     path: Assets/Scenes/FinalDeJuego.unity
     guid: 02a20d1277c12f044969539cd94030f3
   m_configObjects: {}
