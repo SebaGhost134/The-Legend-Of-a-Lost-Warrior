@@ -23,6 +23,8 @@ public class Movimientovikingo : MonoBehaviour
     public float velocidad;
     // Momento en el tiempo del último disparo
     public float LastShoot;
+    public float fuerzaGolpe;
+    private Rigidbody2D rigidBody;
 
     // Start es lo que se inicia en la clase
     void Start()
@@ -31,6 +33,7 @@ public class Movimientovikingo : MonoBehaviour
         movimiento = GetComponent<Rigidbody2D>();
          // Obtiene el componente Animator del vikingo
         Animator = GetComponent<Animator>();
+        rigidBody = GetComponent<Rigidbody2D>();
     }
 
     // Update se ejecuta mientras el freim se actualiza
@@ -109,6 +112,20 @@ public class Movimientovikingo : MonoBehaviour
     {
         // Actualiza la velocidad del Rigidbody2D para mover al vikingo horizontalmente
         movimiento.velocity = new Vector2(horizontal*velocidad,movimiento.velocity.y);
+    }
+    public void AplicarGolpe()
+    {
+
+        Vector2 direccionGolpe;
+
+        if(rigidBody.velocity.x > 0)
+        {
+            direccionGolpe = new Vector2(-1, 1);
+        } else {
+            direccionGolpe = new Vector2(1, 1);
+        }
+
+        rigidBody.AddForce(direccionGolpe * fuerzaGolpe);
     }
 }
     

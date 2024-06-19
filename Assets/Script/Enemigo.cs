@@ -37,6 +37,8 @@ public class Enemigo : MonoBehaviour
             {
                 // Llama al método PerderVida del GameManager
                 GameManager.Instance.PerderVida();
+
+                other.gameObject.GetComponent<Movimientovikingo>().AplicarGolpe();
             }
         }
 }
