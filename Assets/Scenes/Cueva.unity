@@ -2921,7 +2921,7 @@ MonoBehaviour:
   fuerzaSalto: 6
   velocidad: 5
   LastShoot: 0
-  fuerzaGolpe: 500
+  fuerzaGolpe: 400
 --- !u!70 &347436961
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
