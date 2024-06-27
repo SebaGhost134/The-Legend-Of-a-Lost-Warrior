@@ -10,6 +10,8 @@ public class Enemigo : MonoBehaviour
     // Número de vidas del enemigo
     public int vidas;
 
+    private float Disparo;
+
     // Update is called once per frame
     void Update()
     {
@@ -27,7 +29,13 @@ public class Enemigo : MonoBehaviour
             transform.localScale = new Vector3 (-1.0f , 1.0f , 1.0f);
         }
 
+        float distance = Mathf.Abs(Personaje.transform.position.x - transform.position.x);
 
+        if(distance <2.0f && Time.time > Disparo + 0.25f)
+        {
+            Shoot();
+            Disparo = Time.time;
+        }
     }
         // Método que se llama cuando este GameObject colisiona con otro GameObject
         private void OnCollisionEnter2D(Collision2D other)
@@ -40,5 +48,9 @@ public class Enemigo : MonoBehaviour
 
                 other.gameObject.GetComponent<Movimientovikingo>().AplicarGolpe();
             }
+        }
+        private void Shoot()
+        {
+            Debug.Log("te estoy disparando");
         }
 }
