@@ -41,6 +41,22 @@ public class BalaPoder : MonoBehaviour
         // Destruye el GameObject de la bala
         Destroy(gameObject);
     }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
 
+        // Intenta obtener el componente Enemigo del objeto con el que colisiona
+        Enemigo grunt = collision.GetComponent<Enemigo>();
 
+        if (grunt != null)
+        {
+            grunt.Hit();
+        }
+        
+        // Destruye la bala después de la colisión
+        DestroyBullet();
+    }
+    public void DestroyBullet()
+    {
+        Destroy(gameObject);
+    }
 }

@@ -53,4 +53,14 @@ public class Enemigo : MonoBehaviour
         {
             Debug.Log("te estoy disparando");
         }
+   public void Hit()
+    {
+        // Reduce la cantidad de vidas del enemigo
+        vidas -= 1; // Reduce la cantidad de vidas
+        // Si las vidas llegan a cero, destruye el enemigo
+        if (vidas <= 0) 
+        {
+            Destroy(gameObject); 
+        }
+    }
 }

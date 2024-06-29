@@ -59,6 +59,7 @@ public class MenuPausa : MonoBehaviour
     }
     // Método para cerrar el juego y volver al menú principal
     public void Cerrar(){
+        Time.timeScale = 1f;
         // Carga la escena del menú principal
         SceneManager.LoadScene("Menu");
     }
