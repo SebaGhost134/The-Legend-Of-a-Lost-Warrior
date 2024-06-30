@@ -2812,7 +2812,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_TargetDisplay: 0
 --- !u!224 &298461586
 RectTransform:
@@ -5027,8 +5027,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1124918122}
   - component: {fileID: 1124918121}
-  - component: {fileID: 1124918120}
   - component: {fileID: 1124918119}
+  - component: {fileID: 1124918123}
   m_Layer: 0
   m_Name: Lava
   m_TagString: Untagged
@@ -5062,18 +5062,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.9915483}
   m_EdgeRadius: 0
---- !u!114 &1124918120
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1124918118}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b6140d012e98e74ba2a86d5571bed31, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &1124918121
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5141,6 +5129,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1124918123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1124918118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e66596c34b3682249bdee5c08fa4ac32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1127039841
 GameObject:
   m_ObjectHideFlags: 0

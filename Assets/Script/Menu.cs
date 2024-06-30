@@ -19,4 +19,29 @@ public class Menu : MonoBehaviour
         // Carga la escena del menú principal llamada "Menu"
         SceneManager.LoadScene("Menu");
     }
+    public void Nivel1()
+    {
+        // Carga la escena del menú principal llamada "Menu"
+        SceneManager.LoadScene("SampleScene");
+    }
+    public void Nivel2()
+    {
+        // Carga la escena del menú principal llamada "Menu"
+        SceneManager.LoadScene("Cueva");
+    }
+    public void Nivel3()
+    {
+        // Carga la escena del menú principal llamada "Menu"
+        SceneManager.LoadScene("Nieve");
+    }
+    public void nivel()
+    {
+        // Carga la escena del menú principal llamada "Menu"
+        SceneManager.LoadScene("Niveles");
+    }
+    public void Salir()
+    {
+        // Carga la escena del menú principal llamada "Menu"
+        Application.Quit();
+    }
 }
