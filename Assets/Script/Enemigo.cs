@@ -11,7 +11,7 @@ public class Enemigo : MonoBehaviour
     public int vidas;
 
     private float Disparo;
-
+    
     // Update is called once per frame
     void Update()
     {

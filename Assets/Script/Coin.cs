@@ -9,7 +9,7 @@ public class Coin : MonoBehaviour
     public int valor = 1;
     // Referencia al GameManager para actualizar los puntos
     public GameManager game;
-
+    
     // Método que se llama cuando otro collider entra en el trigger de este GameObject
     private void OnTriggerEnter2D(Collider2D collision)
     {
