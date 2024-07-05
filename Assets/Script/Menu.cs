@@ -19,6 +19,11 @@ public class Menu : MonoBehaviour
         // Carga la escena del menú principal llamada "Menu"
         SceneManager.LoadScene("Menu");
     }
+     public void Instructivo()
+    {
+        // Carga la escena del instructivo llamada "Instructivo"
+        SceneManager.LoadScene("Instructivo");
+    }
     public void Nivel1()
     {
         // Carga la escena del menú principal llamada "Menu"
@@ -44,4 +49,5 @@ public class Menu : MonoBehaviour
         // Carga la escena del menú principal llamada "Menu"
         Application.Quit();
     }
+
 }

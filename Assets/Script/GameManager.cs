@@ -87,4 +87,10 @@ public static GameManager Instance { get; private set; }
 		// Actualiza el HUD para desactivar una vida
 		hud.DesactivarVida(vidas);
 	}
+	// Método para cargar la escena de victoria
+public void CargarEscenaVictoria()
+{
+    SceneManager.LoadScene("Victoria");
+}
+
 }

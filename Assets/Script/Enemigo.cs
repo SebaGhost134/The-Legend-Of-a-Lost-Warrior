@@ -5,62 +5,65 @@ using UnityEngine;
 // Clase que controla el comportamiento del enemigo en el juego
 public class Enemigo : MonoBehaviour
 {
-    // Referencia al GameObject del personaje (jugador)
-    public GameObject Personaje;
-    // Número de vidas del enemigo
-    public int vidas;
+    public GameObject Personaje; // Referencia al GameObject del personaje (jugador)
+    public int vidas; // Número de vidas del enemigo
 
-    private float Disparo;
-    
-    // Update is called once per frame
+    public AudioClip sonidoDanio; // AudioClip para el sonido de daño al jugador
+    private AudioSource audioSource; // Referencia al AudioSource para reproducir sonidos
+
+    void Start()
+    {
+        // Obtener o agregar el AudioSource al mismo GameObject del enemigo
+        audioSource = GetComponent<AudioSource>();
+        if (audioSource == null)
+        {
+            audioSource = gameObject.AddComponent<AudioSource>();
+        }
+    }
+
     void Update()
     {
-        // Calcula la dirección hacia el personaje
+        // Lógica de orientación del enemigo hacia el jugador
         Vector3 direccion = Personaje.transform.position - transform.position;
-        // Verifica si el personaje está a la izquierda del enemigo
-        if(direccion.x <=0.0f)
+        if (direccion.x <= 0.0f)
         {
-            // Si el personaje está a la izquierda, establece la escala local del enemigo para que mire hacia la derecha
-            transform.localScale = new Vector3 (1.0f , 1.0f , 1.0f);
+            transform.localScale = new Vector3(1.0f, 1.0f, 1.0f);
         }
         else
         {
-            // Si el personaje está a la derecha, establece la escala local del enemigo para que mire hacia la izquierda
-            transform.localScale = new Vector3 (-1.0f , 1.0f , 1.0f);
-        }
-
-        float distance = Mathf.Abs(Personaje.transform.position.x - transform.position.x);
-
-        if(distance <2.0f && Time.time > Disparo + 0.25f)
-        {
-            Shoot();
-            Disparo = Time.time;
+            transform.localScale = new Vector3(-1.0f, 1.0f, 1.0f);
         }
     }
-        // Método que se llama cuando este GameObject colisiona con otro GameObject
-        private void OnCollisionEnter2D(Collision2D other)
-        {
-            // Verifica si el GameObject con el que colisionó tiene la etiqueta "Player"
-            if(other.gameObject.CompareTag("Player"))
-            {
-                // Llama al método PerderVida del GameManager
-                GameManager.Instance.PerderVida();
 
-                other.gameObject.GetComponent<Movimientovikingo>().AplicarGolpe();
+    // Método que se llama cuando este GameObject colisiona con otro GameObject
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        // Verificar si el GameObject con el que colisionó tiene la etiqueta "Player"
+        if (other.gameObject.CompareTag("Player"))
+        {
+            // Llama al método PerderVida del GameManager
+            GameManager.Instance.PerderVida();
+
+            // Aplica un golpe al jugador (esto depende de tu implementación en Movimientovikingo)
+            other.gameObject.GetComponent<Movimientovikingo>().AplicarGolpe();
+
+            // Reproduce el sonido de daño al jugador si está asignado
+            if (sonidoDanio != null && audioSource != null)
+            {
+                audioSource.PlayOneShot(sonidoDanio);
             }
         }
-        private void Shoot()
-        {
-            Debug.Log("te estoy disparando");
-        }
-   public void Hit()
+    }
+
+    public void Hit()
     {
         // Reduce la cantidad de vidas del enemigo
-        vidas -= 1; // Reduce la cantidad de vidas
+        vidas--;
+
         // Si las vidas llegan a cero, destruye el enemigo
-        if (vidas <= 0) 
+        if (vidas <= 0)
         {
-            Destroy(gameObject); 
+            Destroy(gameObject);
         }
     }
 }

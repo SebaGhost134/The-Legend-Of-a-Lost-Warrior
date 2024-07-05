@@ -18,4 +18,13 @@ public class CambioNivel : MonoBehaviour
             SceneManager.LoadScene(nivelActual + 1);
         }
     }
+     private void OnTriggerEnter2D(Collider2D other)
+    {
+        // Verifica si el objeto con el que colisionó tiene la etiqueta "VictoryTrigger"
+        if (other.CompareTag("Cambio"))
+        {
+            // Carga la escena de victoria utilizando la instancia del GameManager
+            GameManager.Instance.CargarEscenaVictoria();
+        }
+    }
 }

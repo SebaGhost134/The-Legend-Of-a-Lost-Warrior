@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: b634c4fdaefd4b3479c36718e5708b49
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - colectar1: {fileID: 8300000, guid: 0ab63bf023226064b9ea80613c0df227, type: 3}
+  - colectar2: {fileID: 8300000, guid: 0ab63bf023226064b9ea80613c0df227, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
