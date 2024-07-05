@@ -14,7 +14,9 @@ public class MiniJuego : MonoBehaviour
         // Verifica si el objeto que colisiona tiene el tag "Player"
         if (collision.CompareTag("Player"))
         {
+            // Desactiva este GameObject (opcional)
             gameObject.SetActive(false);
+            // Carga la escena especificada por sceneName
             SceneManager.LoadScene(sceneName);
         }
     }
