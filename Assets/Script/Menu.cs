@@ -49,5 +49,15 @@ public class Menu : MonoBehaviour
         // Carga la escena del menú principal llamada "Menu"
         Application.Quit();
     }
+    public void Minijuego1()
+    {
+        // Carga la escena del menú principal llamada "Menu"
+        SceneManager.LoadScene("Minijuego Llanura");
+    }
+    public void Minijuego2()
+    {
+        // Carga la escena del menú principal llamada "Menu"
+        SceneManager.LoadScene("MinijuegoNieve");
+    }
 
 }
