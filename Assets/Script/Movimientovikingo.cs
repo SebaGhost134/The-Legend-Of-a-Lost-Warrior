@@ -115,17 +115,28 @@ public class Movimientovikingo : MonoBehaviour
     }
     public void AplicarGolpe()
     {
-
         Vector2 direccionGolpe;
 
-        if(rigidBody.velocity.x > 0)
-        {
-            direccionGolpe = new Vector2(-1, 1);
-        } else {
-            direccionGolpe = new Vector2(1, 1);
-        }
+            if (rigidBody.velocity.x > 0)
+            {
+                direccionGolpe = new Vector2(-1, 1);
+            }
+            else
+            {
+                direccionGolpe = new Vector2(1, 1);
+            }
 
-        rigidBody.AddForce(direccionGolpe * fuerzaGolpe);
+            // Limitar la fuerza aplicada
+            float fuerzaAplicada = Mathf.Min(fuerzaGolpe, 10.0f); // Ajusta 10.0f según sea necesario
+
+            rigidBody.AddForce(direccionGolpe * fuerzaAplicada, ForceMode2D.Impulse);
+
+            // Limitar la velocidad máxima después del golpe
+            float velocidadMaxima = 5.0f; // Ajusta 5.0f según sea necesario
+            rigidBody.velocity = new Vector2(
+                Mathf.Clamp(rigidBody.velocity.x, -velocidadMaxima, velocidadMaxima),
+                Mathf.Clamp(rigidBody.velocity.y, -velocidadMaxima, velocidadMaxima)
+            );
     }
 }
     

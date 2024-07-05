@@ -74,18 +74,23 @@ public static GameManager Instance { get; private set; }
 		return true;
 	}
 	public void Instakill() {
-		// Disminuye el número de vidas
-		vidas -= 3;
+    // Disminuye el número de vidas
+    vidas -= 3;
 
-		// Si las vidas llegan a cero
-		if(vidas == 0)
-		{
-			// Reinicia el nivel cargando la escena con índice 0
-			SceneManager.LoadScene(5);
-		}
+    // Asegura que las vidas no sean menores que cero
+    if (vidas < 0) {
+        vidas = 0;
+    }
 
-		// Actualiza el HUD para desactivar una vida
-		hud.DesactivarVida(vidas);
+    // Si las vidas llegan a cero
+    if (vidas == 0)
+    {
+        // Reinicia el nivel cargando la escena con índice 5
+        SceneManager.LoadScene(5);
+    }
+
+    // Actualiza el HUD para desactivar una vida
+    hud.DesactivarVida(vidas);
 	}
 	// Método para cargar la escena de victoria
 public void CargarEscenaVictoria()
