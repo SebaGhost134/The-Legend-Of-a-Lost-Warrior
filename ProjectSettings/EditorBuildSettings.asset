@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Minijuego.unity
     guid: c407a55808c7560429a7e59060ba5405
+  - enabled: 1
+    path: Assets/Scenes/Minijuego 1.unity
+    guid: d85a2eb9e8312c1409c53e8a5ecba35c
   m_configObjects: {}
