@@ -12762,7 +12762,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1343585038}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -26.89, y: -5.24, z: -15.237602}
+  m_LocalPosition: {x: -26.87, y: -5.4, z: -15.237602}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14945,8 +14945,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1716965778}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 12.7025, y: -4.7302, z: 0.069712095}
-  m_LocalScale: {x: 27.305946, y: 7.140724, z: 1}
+  m_LocalPosition: {x: 12.634, y: -4.7302, z: 0.069712095}
+  m_LocalScale: {x: 27.270449, y: 7.140724, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 896336020}
@@ -17243,7 +17243,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ab5059d68072744fa41edf648800eca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Minijuego 1
+  sceneName: MinijuegoNieve
 --- !u!61 &2062211113
 BoxCollider2D:
   m_ObjectHideFlags: 0

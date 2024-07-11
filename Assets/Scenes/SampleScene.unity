@@ -7879,7 +7879,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ab5059d68072744fa41edf648800eca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Minijuego 1
+  sceneName: Minijuego Llanura
 --- !u!1 &810667798
 GameObject:
   m_ObjectHideFlags: 3
