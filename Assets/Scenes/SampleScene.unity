@@ -13133,7 +13133,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 1
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 519420031}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -20543,7 +20543,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Personaje: {fileID: 439623539}
   vidas: 3
-  sonidoDanio: {fileID: 0}
+  sonidoDanio: {fileID: 8300000, guid: 9b81d47ca77d93a408865ca97652df0b, type: 3}
 --- !u!1 &2095011686
 GameObject:
   m_ObjectHideFlags: 0

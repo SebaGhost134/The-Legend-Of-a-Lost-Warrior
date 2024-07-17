@@ -52,7 +52,7 @@ public static GameManager Instance { get; private set; }
 		if(vidas == 0)
 		{
 			// Reinicia el nivel cargando la escena con índice 0
-			SceneManager.LoadScene(7);
+			SceneManager.LoadScene(6);
 		}
 
 		// Actualiza el HUD para desactivar una vida
@@ -86,7 +86,7 @@ public static GameManager Instance { get; private set; }
     if (vidas == 0)
     {
         // Reinicia el nivel cargando la escena con índice 5
-        SceneManager.LoadScene(7);
+        SceneManager.LoadScene(6);
     }
 
     // Actualiza el HUD para desactivar una vida
